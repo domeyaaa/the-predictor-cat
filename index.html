@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Predictor Cat</title>
+    <link rel="stylesheet" href="./CSS/index.css">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/cloud.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@100;300&family=Roboto:wght@100;400&display=swap"
+        rel="stylesheet">
+    <link rel="icon" href="./IMG/icon.png" type="icon/image">
+    
+</head>
+
+<body>
+    <div class="loading" id="loading">
+        <div class="AllShow">
+            <div class="logoCat">
+                <img id="logoCat" src="./IMG/loading.png" alt="logo">
+            </div>
+            <div id="percentLoad" class="percentLoad">0 %</div>
+        </div>
+    </div>
+    <script src="./JS/showLoading.js"></script>
+    <div class="container">
+        <div class="web-name">
+            <h1>The Predictor Cat</h1>
+        </div>
+        <div class="logo1">
+            <img class="logo_main" src="./IMG/logo.png" alt="logo">
+        </div>
+        <div class="discript">
+            <p>ยินดีต้อนรับเข้าสู่เว็บไซต์ The Predictor Cat เว็บดูดวง ทำนาย อับดับหนึ่งของโลก</p>
+            <button id="goToIndex">เข้าสู่เว็บไซต์</button>
+        </div>
+        <div class="clouds">
+            <img src="./IMG/cloud1.png" alt="cloud" style="--i:1;">
+            <img src="./IMG/cloud2.png" alt="cloud" style="--i:2;">
+            <img src="./IMG/cloud3.png" alt="cloud" style="--i:3;">
+            <img src="./IMG/cloud4.png" alt="cloud" style="--i:4;">
+            <img src="./IMG/cloud5.png" alt="cloud" style="--i:5;">
+            <img src="./IMG/cloud1.png" alt="cloud" style="--i:10;">
+            <img src="./IMG/cloud2.png" alt="cloud" style="--i:9;">
+            <img src="./IMG/cloud3.png" alt="cloud" style="--i:8;">
+            <img src="./IMG/cloud4.png" alt="cloud" style="--i:7;">
+            <img src="./IMG/cloud5.png" alt="cloud" style="--i:6;">
+        </div>
+    </div>
+    <script>
+        let goToIndex = document.getElementById('goToIndex');
+        goToIndex.addEventListener("click", showLoading);
+    </script>
+</body>
+
+</html>

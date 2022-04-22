@@ -1,0 +1,91 @@
+.headding_content h3 {
+    font-size: 40px;
+    text-shadow: 0 0 5px rgb(164, 155, 221);
+}
+
+.headding_content p {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.headding_content {
+    text-align: center;
+    padding: 90px 100px 20px;
+    color: white;
+}
+
+.content1 {
+    background: linear-gradient(rgb(12, 0, 31), rgb(45, 21, 90));
+    background: -webkit-linear-gradient(rgb(12, 0, 31), rgb(45, 21, 90));
+    background: -o-linear-gradient(rgb(12, 0, 31), rgb(45, 21, 90));
+    background: -moz-linear-gradient(rgb(12, 0, 31), rgb(45, 21, 90));
+    min-height: 100vh;
+}
+
+.contentAllCrad {
+    width: 54.68vw;
+    height: 65vh;
+    margin-top: 20px;
+    min-height: 65%;
+    margin: 0 auto;
+}
+
+.all_yibseecard {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+.yibseecard {
+    width: 6.25vw;
+    height: 19vh;
+    box-sizing: border-box;
+    overflow: hidden;
+    margin: 8px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.yibseecard img {
+    width: 100%;
+    height: 100%;
+}
+
+.yibseecard:hover {
+    box-shadow: 0 5px 10px fuchsia;
+    margin-top: -2px;
+}
+
+.command_box {
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: larger;
+    margin: 10px;
+    display: inline-block;
+    cursor: pointer;
+    background-color:white;
+    border: none;
+    border-radius: 5px;
+    color: black;
+}
+
+button#confirm {
+    opacity: 0.5;
+}
+button:hover{
+    background-color: white;
+    box-shadow: 0 0 8px 8px rgb(119, 0, 255);
+    color: black;
+    transition: .3s;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    -moz-transition: .3s;
+    cursor: pointer;
+}

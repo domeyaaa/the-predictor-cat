@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../CSS/style.css">
+    <link rel="stylesheet" href="../../CSS/resultrandomsiimsi.css">
+    <link rel="stylesheet" href="../../CSS/cloud.css">
+    <link rel="icon" href="../../IMG/icon.png" type="icon/image">
+
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@100;300&display=swap" rel="stylesheet">
+    <title>The Predictor Cat</title>
+    <script>
+        function togglePopup() {
+            document.getElementById("popup-1").classList.toggle("active");
+        }
+    </script>
+</head>
+
+<body>
+    <nav>
+        <div class="logo1">
+            <a href="../home.html">
+                <img src="../../IMG/logo.png" alt="logo">
+                <h2>The Predictor Cat</h2>
+            </a>
+        </div>
+        <ul>
+            <li><a href="../home.html">หน้าหลัก</a></li>
+            <li><a href="../randomcard.html">ไพ่ยิปซี</a></li>
+            <li><a href="../randomsiimsi.html" class="active">เซียมซี</a></li>
+            <li><a href="../contact.html">ติดต่อ</a></li>
+        </ul>
+    </nav>
+    <div class="wrapper">
+        <div class="content1">
+            <div class="headding_content">
+                <h2>หมายเลข 10</h2>
+            </div>
+            <div class="stick">
+                <img src="../../IMG/siimsi/siimsi10.png" alt="">
+            </div>
+            <div class="popup" id="popup-1">
+                <div class="overlay"></div>
+                <div class="content">
+                    <div class="close-btn" onclick="togglePopup()">X</div>
+                    <h1>หมายเลข 10</h1>
+                    <p>คำทำนายน้องแมวว่าหมายเลข 10 นั้นหนาท่านว่าพระราหู เมื่อจับคู่จันทราในราศี
+                        น้องแมวทายว่าร้ายอยู่ไม่สู้ดี มัวราคีต้องตนเป็นมลทิน ในปีนี้ยังมีทุกข์หนักหนา
+                        ในอุราไม่สู้แน่นเหมือนแผ่นหิน ถามถึงคู่สู่สมนิยมยิน ไม่ทิ้งถิ่นไปห่างให้จางใจ
+                        ถามถึงลาภลาภก็ยังกําลังหา แมวขอทักว่าจะมีมา หาพอไม่ จงหยุดยั้งฟังเหตุสังเกตใจ
+                        อย่าด่วนไปจากที่ปีนี้ เอย ฯ
+                    </p>
+                </div>
+            </div>
+            <button onclick="togglePopup()">อ่านคำทำนาย</button>
+            <form action="../randomsiimsi.html">
+                <button>ย้อนกลับ</button>
+            </form>
+        </div>
+        <footer>
+            <p>&copy; 2020 The Predictor Cat</p>
+        </footer>
+        <div class="clouds">
+            <img src="../../IMG/cloud1.png" alt="cloud" style="--i:1;">
+            <img src="../../IMG/cloud2.png" alt="cloud" style="--i:2;">
+            <img src="../../IMG/cloud3.png" alt="cloud" style="--i:3;">
+            <img src="../../IMG/cloud4.png" alt="cloud" style="--i:4;">
+            <img src="../../IMG/cloud5.png" alt="cloud" style="--i:5;">
+            <img src="../../IMG/cloud1.png" alt="cloud" style="--i:10;">
+            <img src="../../IMG/cloud2.png" alt="cloud" style="--i:9;">
+            <img src="../../IMG/cloud3.png" alt="cloud" style="--i:8;">
+            <img src="../../IMG/cloud4.png" alt="cloud" style="--i:7;">
+            <img src="../../IMG/cloud5.png" alt="cloud" style="--i:6;">
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>The Predictor Cat</title>
+        <link rel="stylesheet" href="../CSS/style.css">
+        <link rel="stylesheet" href="../CSS/randomcard.css">
+        <link rel="stylesheet" href="../CSS/cloud.css">
+        <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@100;300&display=swap" rel="stylesheet">
+        <link rel="icon" href="../IMG/icon.png" type="icon/image">
+
+
+        <script src="../JS/randowCrad.js"></script>
+        <script>
+                window.onload = () => {
+                        newRandom();
+                };
+        </script>
+</head>
+
+<body>
+        <nav>
+                <div class="logo1">
+                        <a href="home.html">
+                                <img src="../IMG/logo.png" alt="logo">
+                                <h2>The Predictor Cat</h2>
+                        </a>
+                </div>
+                <ul>
+                        <li><a href="./home.html">หน้าหลัก</a></li>
+                        <li><a href="./randomcard.html" class="active">ไพ่ยิปซี</a></li>
+                        <li><a href="./randomsiimsi.html">เซียมซี</a></li>
+                        <li><a href="./contact.html">ติดต่อ</a></li>
+
+                </ul>
+        </nav>
+
+        <div class="wrapper">
+                <div class="content1">
+                        <div class="headding_content">
+                                <h3>ดูดวงไพ่ยิปซีกับน้องแมว</h3>
+                                <p><span class="bold">วิธีเลือกไพ่ :</span> ขอให้ตั้งสมาธิและทำจิตใจให้สงบ
+                                        ใช้มือซ้ายในการเลือกไพ่ที่ดึงดูดมา 1 ใบ<br>
+                                        <span class="red">คำเตือน!! ไม่ควรดูเกิน 2 ครั้งต่อสัปดาห์</span>
+                                </p>
+                        </div>
+                        <div class="contentAllCrad">
+                                <div class="all_yibseecard" id="all_yibseecard">
+                                        <div id="crad0" class="yibseecard" onclick="selectCrad('0')"><img
+                                                        src="../IMG/backCard.PNG" alt="yibseecard"></div>
+                                        <div id="crad1" class="yibseecard" onclick="selectCrad('1')"><img
+                                                        src="../IMG/backCard.PNG" alt="yibseecard"></div>
+                                        <div id="crad2" class="yibseecard" onclick="selectCrad('2')"><img
+                                                        src="../IMG/backCard.PNG" alt="yibseecard"></div>
+                                        <div id="crad3" class="yibseecard" onclick="selectCrad('3')"><img
+                                                        src="../IMG/backCard.PNG" alt="yibseecard"></div>
+                                        <div id="crad4" class="yibseecard" onclick="selectCrad('4')"><img
+                                                        src="../IMG/backCard.PNG" alt="yibseecard"></div>
+                                        <div id="crad5" class="yibseecard" onclick="selectCrad('5')"><img
+                                                        src="../IMG/backCard.PNG" alt="yibseecard"></div>
+                                        <div id="crad6" class="yibseecard" onclick="selectCrad('6')"><img
+                                                        src="../IMG/backCard.PNG" alt="yibseecard"></div>
+                                        <div id="crad7" class="yibseecard" onclick="selectCrad('7')"><img
+                                                        src="../IMG/backCard.PNG" alt="yibseecard"></div>
+                                        <div id="crad8" class="yibseecard" onclick="selectCrad('8')"><img
+                                                        src="../IMG/backCard.PNG" alt="yibseecard"></div>
+                                        <div id="crad9" class="yibseecard" onclick="selectCrad('9')"><img
+                                                        src="../IMG/backCard.PNG" alt="yibseecard"></div>
+                                        <div id="crad10" class="yibseecard" onclick="selectCrad('10')"><img
+                                                        src="../IMG/backCard.PNG" alt="yibseecard"></div>
+                                        <div id="crad11" class="yibseecard" onclick="selectCrad('11')"><img
+                                                        src="../IMG/backCard.PNG" alt="yibseecard"></div>
+                                        <div id="crad12" class="yibseecard" onclick="selectCrad('12')"><img
+                                                        src="../IMG/backCard.PNG" alt="yibseecard"></div>
+                                        <div id="crad13" class="yibseecard" onclick="selectCrad('13')"><img
+                                                        src="../IMG/backCard.PNG" alt="yibseecard"></div>
+                                        <div id="crad14" class="yibseecard" onclick="selectCrad('14')"><img
+                                                        src="../IMG/backCard.PNG" alt="yibseecard"></div>
+                                        <div id="crad15" class="yibseecard" onclick="selectCrad('15')"><img
+                                                        src="../IMG/backCard.PNG" alt="yibseecard"></div>
+                                        <div id="crad16" class="yibseecard" onclick="selectCrad('16')"><img
+                                                        src="../IMG/backCard.PNG" alt="yibseecard"></div>
+                                        <div id="crad17" class="yibseecard" onclick="selectCrad('17')"><img
+                                                        src="../IMG/backCard.PNG" alt="yibseecard"></div>
+                                        <div id="crad18" class="yibseecard" onclick="selectCrad('18')"><img
+                                                        src="../IMG/backCard.PNG" alt="yibseecard"></div>
+                                        <div id="crad19" class="yibseecard" onclick="selectCrad('19')"><img
+                                                        src="../IMG/backCard.PNG" alt="yibseecard"></div>
+                                        <div id="crad20" class="yibseecard" onclick="selectCrad('20')"><img
+                                                        src="../IMG/backCard.PNG" alt="yibseecard"></div>
+                                </div>
+                        </div>
+                        <div class="command_box">
+                                <button id="reloadCard" onclick="newRandom()">สับไพ่ใหม่</button>
+                                <a id="hrefSelected" href="#"><button id="confirm" type="button">เปิดไพ่</button></a>
+                        </div>
+                </div>
+
+                <footer>
+                        <p>&copy; 2020 The Predictor Cat</p>
+                </footer>
+                <div class="clouds">
+                        <img src="../IMG/cloud1.png" alt="cloud" style="--i:1;">
+                        <img src="../IMG/cloud2.png" alt="cloud" style="--i:2;">
+                        <img src="../IMG/cloud3.png" alt="cloud" style="--i:3;">
+                        <img src="../IMG/cloud4.png" alt="cloud" style="--i:4;">
+                        <img src="../IMG/cloud5.png" alt="cloud" style="--i:5;">
+                        <img src="../IMG/cloud1.png" alt="cloud" style="--i:10;">
+                        <img src="../IMG/cloud2.png" alt="cloud" style="--i:9;">
+                        <img src="../IMG/cloud3.png" alt="cloud" style="--i:8;">
+                        <img src="../IMG/cloud4.png" alt="cloud" style="--i:7;">
+                        <img src="../IMG/cloud5.png" alt="cloud" style="--i:6;">
+                </div>
+        </div>
+
+</body>
+
+</html>
